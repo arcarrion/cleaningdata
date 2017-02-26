@@ -76,7 +76,7 @@ As the authors of the original data set explained:
 
 This is just a subset of the original variables estimated.
 
-### Final Variables for the Course Project
+## Final Variables for the Course Project
 
 For the course project, the data set is grouped by activity and subject, and the average of
 each variable (tBodyAcc-XYZ-mean, tBodyAcc-XYZ-std, tGravityAcc-XYZ-mean,
