@@ -4,7 +4,7 @@ Each set of variables (described later) is linked to the
 corresponding subject and activity.
 
 There are 30 subjects, and activities may take values on the set listed in
-activity_labels.txt:
+[activity_labels.txt](https://github.com/arcarrion/cleaningdata/blob/master/activity_labels.txt):
 
 * WALKING
 * WALKING_UPSTAIRS
