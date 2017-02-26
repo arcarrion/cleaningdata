@@ -49,27 +49,14 @@ Finally, the data set is grouped by activity and subject, and the average of
 each variable (tBodyAcc-XYZ-mean, tBodyAcc-XYZ-std, tGravityAcc-XYZ-mean,
 tGravityAcc-XYZ-std...) is calculated, thus having observations of the form:
 
--------------------------------------------------------------------------------
-activity        | subject | tBodyAcc-XYZ-mean        | tBodyAcc-XYZ-std  | ....
--------------------------------------------------------------------------------
-WALKING              1       mean(tBodyAcc-XYZ-mean     mean(tBodyAcc-XYZ-std   
-                                   for WALKING                for WALKING
-                                   activity for                activity for
-                                   subject 1)                  subject 1)
-WALKING              2       mean(tBodyAcc-XYZ-mean     mean(tBodyAcc-XYZ-std   
-                                   for WALKING               for WALKING
-                                   activity for               activity for
-                                   subject 2)                 subject 2)
-...
-WALKING              30      mean(tBodyAcc-XYZ-mean     mean(tBodyAcc-XYZ-std   
-                                   for WALKING                for WALKING
-                                   activity for                activity for
-                                   subject 30)                  subject 30)
 
-WALKING_UPSTAIRS     1       mean(tBodyAcc-XYZ-mean     mean(tBodyAcc-XYZ-std   
-                                   for WALKING                for WALKING
-                                   activity for                activity for
-                                   subject 1)                  subject 1)
-...
+activity        | subject | tBodyAcc-XYZ-mean        | tBodyAcc-XYZ-std  | ....
+----------------|---------|--------------------------|-------------------|-----
+
+WALKING |1 | mean(tBodyAcc-XYZ-mean for WALKING for subject 1 | mean(tBodyAcc-XYZ-std for WALKING for subject 1 | ...
+WALKING |2 | mean(tBodyAcc-XYZ-mean for WALKING for subject 2 | mean(tBodyAcc-XYZ-std for WALKING for subject 2 | ...  
+ ...    |...|...|...|...  
+WALKING |30 | mean(tBodyAcc-XYZ-mean for WALKING for subject 30 | mean(tBodyAcc-XYZ-std for WALKING for subject 30 | ...  
+WALKING_UPSTAIRS |1 | mean(tBodyAcc-XYZ-mean for WALKING_UPSTAIRS for subject 1 | mean(tBodyAcc-XYZ-std for WALKING_UPSTAIRS for subject 1 | ...
 
 The complete list of variables is available in 'newfeatures.txt'
