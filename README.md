@@ -5,7 +5,13 @@ corresponding subject and activity.
 
 There are 30 subjects, and activities may take values on the set listed in
 activity_labels.txt:
-{WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING}
+
+* WALKING
+* WALKING_UPSTAIRS
+* WALKING_DOWNSTAIRS
+* SITTING
+* STANDING
+* LAYING
 
 ## Feature Selection and Pre-Processing
 
@@ -18,30 +24,30 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-tBodyAcc-XYZ
-tGravityAcc-XYZ
-tBodyAccJerk-XYZ
-tBodyGyro-XYZ
-tBodyGyroJerk-XYZ
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
-fBodyAcc-XYZ
-fBodyAccJerk-XYZ
-fBodyGyro-XYZ
-fBodyAccMag
-fBodyAccJerkMag
-fBodyGyroMag
-fBodyGyroJerkMag
+* tBodyAcc-XYZ
+* tGravityAcc-XYZ
+* tBodyAccJerk-XYZ
+* tBodyGyro-XYZ
+* tBodyGyroJerk-XYZ
+* tBodyAccMag
+* tGravityAccMag
+* tBodyAccJerkMag
+* tBodyGyroMag
+* tBodyGyroJerkMag
+* fBodyAcc-XYZ
+* fBodyAccJerk-XYZ
+* fBodyGyro-XYZ
+* fBodyAccMag
+* fBodyAccJerkMag
+* fBodyGyroMag
+* fBodyGyroJerkMag
 
 ### Feature Statistics Selected
 
 The set of variables that were estimated from these signals are:
 
-mean(): Mean value
-std(): Standard deviation
+* mean(): Mean value
+* std(): Standard deviation
 
 ### Final Variables
 
@@ -58,4 +64,4 @@ WALKING | 2 | mean(tBodyAcc-XYZ-mean for WALKING for subject 2) | mean(tBodyAcc-
 WALKING | 30 | mean(tBodyAcc-XYZ-mean for WALKING for subject 30) | mean(tBodyAcc-XYZ-std for WALKING for subject 30) | ...  
 WALKING_UPSTAIRS |1 | mean(tBodyAcc-XYZ-mean for WALKING_UPSTAIRS for subject 1) | mean(tBodyAcc-XYZ-std for WALKING_UPSTAIRS for subject 1) | ...
 
-The complete list of variables is available in 'newfeatures.txt'[newfeatures](https://github.com/arcarrion/cleaningdata/blob/master/newfeatures.txt)
+The complete list of variables is available in [newfeatures.txt](https://github.com/arcarrion/cleaningdata/blob/master/newfeatures.txt)
